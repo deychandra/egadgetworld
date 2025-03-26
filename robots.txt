@@ -1,0 +1,12 @@
+# Allow all web crawlers to index the entire site
+User-agent: *
+Disallow:
+
+# Block access to private directories
+Disallow: /admin/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /cart/
+
+
+
